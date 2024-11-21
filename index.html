@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note-Making App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Note-Making App</h1>
+    </header>
+    <main>
+        <section class="note-input">
+            <h2>Add a note here</h2>
+            <form id="noteForm">
+                <input type="text" id="noteTitle" placeholder="Note Title" required>
+                <textarea id="noteDescription" placeholder="Note Description" required></textarea>
+                <button type="submit">Save your Note here.</button>
+            </form>
+        </section>
+        <section class="notes-container">
+            <h2>Your Notes</h2>
+            <div id="notes"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
